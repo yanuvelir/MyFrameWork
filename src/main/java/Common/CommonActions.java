@@ -2,6 +2,7 @@ package Common;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 
 import java.time.Duration;
@@ -16,7 +17,10 @@ public class CommonActions {
         switch (PLATFORM_AND_BROWSER) {
             case "win_chrome":
                 System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-                driver = new ChromeDriver();
+//                driver = new ChromeDriver();
+                ChromeOptions co = new ChromeOptions();
+                co.addArguments("--remote-allow-origins=*");
+                driver = new ChromeDriver(co);
                 break;
             default:
                 Assert.fail("Incorrect platform or browser name: " + PLATFORM_AND_BROWSER);
