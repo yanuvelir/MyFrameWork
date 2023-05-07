@@ -5,7 +5,7 @@
         <test name="Dex-Trade - Pixel perfect regression">
 
         <classes>
-            <class name="tests.createAccountTests.FillFormTest"/>
+            <class name="tests.createAccountPageTests.FillFormTest"/>
         </classes>
 
         </test>

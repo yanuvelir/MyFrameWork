@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-05T15:01:39 EEST" name="WPT" finished-at="2023-05-05T15:01:42 EEST" duration-ms="2642">
+  <suite started-at="2023-05-07T21:28:44 EEST" name="WPT" finished-at="2023-05-07T21:28:55 EEST" duration-ms="10920">
     <groups>
     </groups>
-    <test started-at="2023-05-05T15:01:39 EEST" name="Dex-Trade - Pixel perfect regression" finished-at="2023-05-05T15:01:42 EEST" duration-ms="2642">
-      <class name="tests.createAccountTests.FillFormTest">
-        <test-method signature="test2()[pri:0, instance:tests.createAccountTests.FillFormTest@201aa8c1]" started-at="2023-05-05T15:01:39 EEST" name="test2" finished-at="2023-05-05T15:01:42 EEST" duration-ms="2538" status="PASS">
+    <test started-at="2023-05-07T21:28:44 EEST" name="Dex-Trade - Pixel perfect regression" finished-at="2023-05-07T21:28:55 EEST" duration-ms="10920">
+      <class name="tests.createAccountPageTests.FillFormTest">
+        <test-method signature="test1()[pri:0, instance:tests.createAccountPageTests.FillFormTest@4aac85fa]" started-at="2023-05-07T21:28:45 EEST" name="test1" finished-at="2023-05-07T21:28:55 EEST" duration-ms="10731" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.createAccountTests.FillFormTest@201aa8c1]" started-at="2023-05-05T15:01:42 EEST" name="clearCookiesAndLocalStorage" finished-at="2023-05-05T15:01:42 EEST" duration-ms="57" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.createAccountPageTests.FillFormTest@4aac85fa]" started-at="2023-05-07T21:28:55 EEST" name="clearCookiesAndLocalStorage" finished-at="2023-05-07T21:28:55 EEST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookiesAndLocalStorage -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tests.createAccountTests.FillFormTest@201aa8c1]" started-at="2023-05-05T15:01:42 EEST" name="close" finished-at="2023-05-05T15:01:43 EEST" duration-ms="841" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.createAccountPageTests.FillFormTest@4aac85fa]" started-at="2023-05-07T21:28:55 EEST" name="close" finished-at="2023-05-07T21:28:56 EEST" duration-ms="974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- tests.createAccountTests.FillFormTest -->
+      </class> <!-- tests.createAccountPageTests.FillFormTest -->
     </test> <!-- Dex-Trade - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>
